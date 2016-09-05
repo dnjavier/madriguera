@@ -1,0 +1,40 @@
+body {
+	font-size: 16px;
+}
+
+h1, h2, h3, a, ul {
+	font-family: 'Slabo 27px', serif;
+	font-weight: 500;
+	letter-spacing: 2.64px;
+	color: #3e3e3e;
+}
+
+p, label, input, textarea {
+	font-family: 'Open Sans', sans-serif;
+	color: #3e3e3e;
+}
+
+label {
+	font-size: 12px;
+}
+
+a, 
+a:hover,
+a:focus,
+a:active {
+	text-decoration: none;
+	color: black;
+	outline: none;
+}
+
+img {
+	max-width: 100%;
+	height: auto;
+}
+
+input, textarea {
+	outline: none;
+	border: none;
+	border-bottom: 1px solid #3e3e3e;
+	font-size: 16px;
+}
