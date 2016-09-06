@@ -2,8 +2,9 @@
 <html>
 <head>
   <title>Madriguera Vegana | Inicio</title>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <link rel="icon" href="favicon.ico">
   <link rel="stylesheet" type="text/css" href="assets/css/grid.css">
   <link rel="stylesheet" type="text/css" href="assets/css/setup.css">
@@ -43,7 +44,7 @@
                 <img src="assets/img/sushi.png" alt="sushi">
                 <div class="caption">
                   <h2>Sushi</h2>
-                  <a href="pages/services.html" class="btn secundary">Ver más <i class="fa fa-arrow-right" aria-hidden="true"></i></a>
+                  <a href="pages/services.html?scrollTo=products" class="btn secundary">Ver más <i class="fa fa-arrow-right" aria-hidden="true"></i></a>
                 </div>
               </div>                
             </div>
@@ -54,7 +55,7 @@
                     <img src="assets/img/torta-garbanzo.png" alt="torta de garbanzo">
                     <div class="caption">
                       <h3>Tortas de Garbanzo</h3>
-                      <a href="pages/services.html" class="btn secundary">Ver más <i class="fa fa-arrow-right" aria-hidden="true"></i></a>
+                      <a href="pages/services.html?scrollTo=products" class="btn secundary">Ver más <i class="fa fa-arrow-right" aria-hidden="true"></i></a>
                     </div>
                   </div>                    
                 </div>
@@ -63,7 +64,7 @@
                     <img src="assets/img/wantan.png" alt="wantan">
                     <div class="caption">
                       <h3>Wantan</h3>
-                      <a href="pages/services.html" class="btn secundary">Ver más <i class="fa fa-arrow-right" aria-hidden="true"></i></a>
+                      <a href="pages/services.html?scrollTo=products" class="btn secundary">Ver más <i class="fa fa-arrow-right" aria-hidden="true"></i></a>
                     </div>
                   </div>
                 </div>
@@ -72,7 +73,7 @@
                     <img src="assets/img/salchicha-clasica.png" alt="salchicha clasica">
                     <div class="caption">
                       <h3>Salchicha clásica</h3>
-                      <a href="pages/services.html" class="btn secundary">Ver más <i class="fa fa-arrow-right" aria-hidden="true"></i></a>
+                      <a href="pages/services.html?scrollTo=products" class="btn secundary">Ver más <i class="fa fa-arrow-right" aria-hidden="true"></i></a>
                     </div>
                   </div>
                 </div>
@@ -81,7 +82,7 @@
                     <img src="assets/img/pinchos.png" alt="pinchos">
                     <div class="caption">
                       <h3>Pinchos</h3>
-                      <a href="pages/services.html" class="btn secundary">Ver más <i class="fa fa-arrow-right" aria-hidden="true"></i></a>
+                      <a href="pages/services.html?scrollTo=products" class="btn secundary">Ver más <i class="fa fa-arrow-right" aria-hidden="true"></i></a>
                     </div>
                   </div>
                 </div>
@@ -91,7 +92,7 @@
 
           <div class="row">
             <div class="col-xs-12">
-              <h1>LOS FAVORITOS</h1>
+              <h1 class="wow fadeIn">LOS FAVORITOS</h1>
               <hr>
               <div class="col-xs-12 col-bg-6">
                 <img class="wow slideInLeft" src="assets/img/salchicha-alemana.png" alt="Salchicha Alemana">
@@ -111,7 +112,7 @@
 
           <div class="row">
             <div class="col-xs-12">
-              <h1>ENCUÉNTRANOS</h1>
+              <h1 class="wow fadeIn">ENCUÉNTRANOS</h1>
               <hr>
               <p>Estamos ubicados en San Rafael Abajo, Desamparados, Urbanización Vizcaya del prestafull 100 noreste 50 sur, casa verde de 2 plantas.</p>
               <div id="map"></div>
@@ -151,10 +152,10 @@
 </body>
 </html>
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.css" />
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
 <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.js"></script>
-<script>
-  new WOW().init();
-</script>
+<script type="text/javascript" src="assets/js/main.js"></script>
+
 <script>
   function initMap() {
     var mapDiv = document.getElementById('map');
@@ -173,4 +174,3 @@
 <script async defer
     src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDYVzjW2PeR5-Mg-1ByQ7Jrbr_CmAWZQKU&callback=initMap">
 </script>
-
