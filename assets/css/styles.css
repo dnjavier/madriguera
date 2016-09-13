@@ -208,9 +208,10 @@ footer .col-xs-12 {
 .form form {
 	display: inline-block;
 	text-align: left;
+	width:100%;
 }
 
-.form form input {
+.form form input, .form form textarea {
 	width: 100%;
 }
 
@@ -218,5 +219,11 @@ footer .col-xs-12 {
 	display: block;
 	margin: 20px auto 0;
 	width: 200px;
+}
+
+@media all and (min-width: 540px) {
+	.form form {
+		width: auto;
+	}
 }
 /* End contact form*/
