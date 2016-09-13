@@ -32,6 +32,11 @@ body {
 	margin-right: 5px;
 }
 
+img .centered {
+	margin-left: auto;
+	margin-right: auto;
+}
+
 /* Location intro */
 .intro {
 	text-align: right;
